@@ -8,6 +8,7 @@ const Calculator = () => {
   const [firstValue, setFirstValue] = useState("");
   const [secondValue, setSecondValue] = useState("");
   const [operator, setOperator] = useState("");
+
     setOperator(op);
     setDisplayValue("0");
   return (
