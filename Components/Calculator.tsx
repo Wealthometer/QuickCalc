@@ -76,9 +76,6 @@ const Calculator = () => {
 
   return (
     <View style={styles.container}>
-     <View style={styles.display}>
-        <Text style ={{ fontSize : 70, fontWeight: '300' }}>1111</Text>
-     </View>
       <View style={styles.keypad}>
         <Button title='C' type='top' />
         <Button title='' type='top' />
