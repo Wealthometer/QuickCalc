@@ -6,6 +6,7 @@ import Button from "./Button";
 const Calculator = () => {
   const [displayValue, setDisplayValue] = useState("0");
   const [firstValue, setFirstValue] = useState("");
+  const [secondValue, setSecondValue] = useState("");
     setOperator(op);
     setDisplayValue("0");
   return (
