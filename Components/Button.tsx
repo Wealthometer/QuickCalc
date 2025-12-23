@@ -17,6 +17,7 @@ const Button = ({
         styles.button,
         {
           backgroundColor:
+            type === "top"
     </TouchableOpacity>
   );
 };
