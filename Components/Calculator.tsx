@@ -4,6 +4,7 @@ import { Colors } from "@/utils/Colors";
 import Button from "./Button";
 
 const Calculator = () => {
+    setOperator(op);
   return (
     <View style={styles.container}>
      <View style={styles.display}>
