@@ -25,6 +25,7 @@ const Button = ({
         },
       ]}
       onPress={onPress}
+    >
     </TouchableOpacity>
   );
 };
