@@ -183,8 +183,8 @@ const Calculator = () => {
         <Button title="=" type="right" onPress={() => handleEqualInput()} />
       </View>
     </View>
-  )
-}
+  );
+};
 
 export default Calculator
 
