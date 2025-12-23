@@ -18,6 +18,7 @@ const Calculator = () => {
       const newValue = secondValue + num;
       setSecondValue(newValue);
       setDisplayValue(newValue);
+    }
     setOperator(op);
     setDisplayValue("0");
   return (
