@@ -186,7 +186,7 @@ const Calculator = () => {
   );
 };
 
-export default Calculator
+export default Calculator;
 
 const styles = StyleSheet.create({
     container : {
