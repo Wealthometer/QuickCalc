@@ -12,8 +12,8 @@ const Button = ({
   onPress: (event: GestureResponderEvent) => void;
 }) => {
   return (
-      <Text style={{fontSize : 34, color : Colors.white}}>{title}</Text>
     <TouchableOpacity
+      style={[
     </TouchableOpacity>
   );
 };
