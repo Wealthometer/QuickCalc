@@ -1,8 +1,7 @@
-import { StyleSheet, Text, View, TouchableOpacity } from 'react-native'
-import React from 'react'
-import { Colors } from '@/utils/Colors'
-import Button from './Button'
-
+import { StyleSheet, Text, View } from "react-native";
+import React, { useState } from "react";
+import { Colors } from "@/utils/Colors";
+import Button from "./Button";
 
 const Calculator = () => {
   return (
