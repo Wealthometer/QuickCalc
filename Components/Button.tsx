@@ -7,6 +7,7 @@ const Button = ({
   type,
   onPress,
 }: {
+  title: string;
   return (
     <TouchableOpacity style={styles.button} onPress={() => {}}>
       <Text style={{fontSize : 34, color : Colors.white}}>{title}</Text>
