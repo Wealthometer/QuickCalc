@@ -34,7 +34,6 @@ const Button = ({
 export default Button;
 
 const styles = StyleSheet.create({
-    button : {
         height : 70,
         width : 70,
         borderRadius: 10,
@@ -43,4 +42,5 @@ const styles = StyleSheet.create({
         justifyContent : 'center',
         backgroundColor : Colors.btnDark
     }
+  button: {
 });
