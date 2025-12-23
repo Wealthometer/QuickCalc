@@ -189,10 +189,10 @@ const Calculator = () => {
 export default Calculator;
 
 const styles = StyleSheet.create({
-    container : {
-        flex : 1,
-        backgroundColor : Colors.dark
-    },
+  container: {
+    flex: 1,
+    backgroundColor: Colors.dark,
+  },
 
     display : {
       flex : 1,
