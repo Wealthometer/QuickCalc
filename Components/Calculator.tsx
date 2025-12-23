@@ -22,6 +22,7 @@ const Calculator = () => {
   };
 
   const handleOperatorInput = (op: string) => {
+    if (firstValue === "") return;
     setOperator(op);
     setDisplayValue("0");
   return (
