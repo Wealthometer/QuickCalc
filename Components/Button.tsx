@@ -23,6 +23,7 @@ const Button = ({
               ? '#7743DB'
               : '#F6F5F2',
         },
+      ]}
     </TouchableOpacity>
   );
 };
