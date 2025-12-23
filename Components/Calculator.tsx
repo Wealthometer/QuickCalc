@@ -13,6 +13,7 @@ const Calculator = () => {
     if (operator === "") {
       const newValue = firstValue + num;
       setFirstValue(newValue);
+      setDisplayValue(newValue);
     setOperator(op);
     setDisplayValue("0");
   return (
