@@ -25,6 +25,55 @@ const Calculator = () => {
     if (firstValue === "") return;
     setOperator(op);
     setDisplayValue("0");
+  };
+
+  const handleEqualInput = () => {
+    let result = 0;
+    const num1 = parseFloat(firstValue);
+    const num2 = parseFloat(secondValue);
+    switch (operator) {
+      case "+":
+        result = num1 + num2;
+        break;
+      case "-":
+        result = num1 - num2;
+      case "*":
+        result = num1 * num2;
+        break;
+      case "/":
+        result = num1 / num2;
+        break;
+      case "%":
+        result = num1 % num2;
+        break;
+      default:
+        return;
+    }
+    setDisplayValue(result.toString());
+    setFirstValue(result.toString());
+    setSecondValue("");
+    setOperator("");
+  };
+
+  const handleClear = () => {
+    setDisplayValue("0");
+    setFirstValue("");
+    setSecondValue("");
+    setOperator("");
+  };
+
+  const handleDelete = () => {
+    if (operator === "") {
+      const newValue = firstValue.slice(0, -1);
+      setFirstValue(newValue);
+      setDisplayValue(newValue === "" ? "0" : newValue);
+    } else {
+      const newValue = secondValue.slice(0, -1);
+      setSecondValue(newValue);
+      setDisplayValue(newValue === "" ? "0" : newValue);
+    }
+  };
+
   return (
     <View style={styles.container}>
      <View style={styles.display}>
