@@ -19,6 +19,7 @@ const Calculator = () => {
       setSecondValue(newValue);
       setDisplayValue(newValue);
     }
+  };
     setOperator(op);
     setDisplayValue("0");
   return (
