@@ -12,6 +12,7 @@ const Calculator = () => {
   const handleNumberInput = (num: string) => {
     if (operator === "") {
       const newValue = firstValue + num;
+      setFirstValue(newValue);
     setOperator(op);
     setDisplayValue("0");
   return (
