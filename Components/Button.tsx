@@ -3,6 +3,7 @@ import React from "react";
 import { Colors } from "react-native/Libraries/NewAppScreen";
 
 const Button = ({
+  title,
   return (
     <TouchableOpacity style={styles.button} onPress={() => {}}>
       <Text style={{fontSize : 34, color : Colors.white}}>{title}</Text>
