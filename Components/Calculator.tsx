@@ -9,6 +9,7 @@ const Calculator = () => {
   const [secondValue, setSecondValue] = useState("");
   const [operator, setOperator] = useState("");
 
+  const handleNumberInput = (num: string) => {
     setOperator(op);
     setDisplayValue("0");
   return (
