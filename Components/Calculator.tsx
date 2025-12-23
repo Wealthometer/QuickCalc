@@ -97,15 +97,6 @@ const Calculator = () => {
         </Text>
       </View>
       <View style={styles.keypad}>
-        <Button title='C' type='top' />
-        <Button title='' type='top' />
-        <Button title='C' type='top' />
-        <Button title='C' type='top' />
-        <Button title='C' type='top' />
-        <Button title='C' type='top' />
-        <Button title='C' type='top' />
-        <Button title='C' type='top' />
-      </View> 
     </View>
   )
 }
