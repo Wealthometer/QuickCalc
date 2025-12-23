@@ -203,13 +203,13 @@ const styles = StyleSheet.create({
     alignItems: "flex-end",
   },
 
-    keypad : {
-      flex : 2,
-      backgroundColor : Colors.light,
-      flexDirection : 'row',
-      flexWrap : 'wrap',
-      justifyContent : 'center',
-      gap : 30,
-      padding : 30
-    }
-})
+  keypad: {
+    flex: 2,
+    backgroundColor: Colors.light,
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "space-between",
+    gap: 20,
+    padding: 30,
+  },
+});
