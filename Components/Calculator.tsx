@@ -194,14 +194,14 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.dark,
   },
 
-    display : {
-      flex : 1,
-      backgroundColor : Colors.gray,
-      paddingVertical : 20,
-      paddingHorizontal : 40,
-      justifyContent : 'flex-end',
-      alignItems : 'flex-end'
-    },
+  display: {
+    flex: 1,
+    backgroundColor: Colors.gray,
+    paddingVertical: 20,
+    paddingHorizontal: 40,
+    justifyContent: "flex-end",
+    alignItems: "flex-end",
+  },
 
     keypad : {
       flex : 2,
