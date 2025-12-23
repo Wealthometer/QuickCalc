@@ -34,12 +34,12 @@ const Button = ({
 export default Button;
 
 const styles = StyleSheet.create({
-        borderRadius: 10,
-        padding : 10,
         alignItems : 'center',
-        justifyContent : 'center',
         backgroundColor : Colors.btnDark
     }
   button: {
     backgroundColor: "#09122C",
+    width: 70,
+    height: 70,
+    borderRadius: 10,
 });
