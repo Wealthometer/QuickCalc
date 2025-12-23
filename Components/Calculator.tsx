@@ -76,6 +76,26 @@ const Calculator = () => {
 
   return (
     <View style={styles.container}>
+      <View style={styles.display}>
+        <Text
+          style={{
+            fontSize: 30,
+            color: Colors.dark,
+            position: "absolute",
+            top: 20,
+            right: 40,
+          }}
+        >
+          {firstValue} {operator} {secondValue}
+        </Text>
+        <Text style={{ fontSize: 70, fontWeight: "300" }}>
+          {Number(displayValue).toString().length > 9
+            ? Number(displayValue)
+                .toFixed(5)
+                .replace(/\.?0+$/, "")
+            : displayValue}
+        </Text>
+      </View>
       <View style={styles.keypad}>
         <Button title='C' type='top' />
         <Button title='' type='top' />
