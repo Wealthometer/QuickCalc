@@ -20,6 +20,7 @@ const Calculator = () => {
       setDisplayValue(newValue);
     }
   };
+
     setOperator(op);
     setDisplayValue("0");
   return (
