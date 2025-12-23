@@ -10,6 +10,7 @@ const Button = ({
   title: string;
   type: "top" | "right" | "number";
   onPress: (event: GestureResponderEvent) => void;
+}) => {
   return (
     <TouchableOpacity style={styles.button} onPress={() => {}}>
       <Text style={{fontSize : 34, color : Colors.white}}>{title}</Text>
