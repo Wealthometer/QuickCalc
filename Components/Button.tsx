@@ -20,6 +20,8 @@ const Button = ({
             type === "top"
               ? '#09122C'
               : type === "right"
+              ? '#7743DB'
+              : '#F6F5F2',
     </TouchableOpacity>
   );
 };
