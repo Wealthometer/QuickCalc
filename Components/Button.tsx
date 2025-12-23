@@ -26,6 +26,7 @@ const Button = ({
       ]}
       onPress={onPress}
     >
+      <Text style={{ fontSize: 34, color: type === "number" ? Colors.black : Colors.white }}>{title}</Text>
     </TouchableOpacity>
   );
 };
