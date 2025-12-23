@@ -34,9 +34,6 @@ const Button = ({
 export default Button;
 
 const styles = StyleSheet.create({
-        alignItems : 'center',
-        backgroundColor : Colors.btnDark
-    }
   button: {
     backgroundColor: "#09122C",
     width: 70,
